@@ -22,7 +22,7 @@ O Hibernate analisa o objeto Java e, nos bastidores, quebra a estrutura original
 ## Boas Práticas de Segurança Aplicadas
 Este repositório segue padrões da indústria para a gestão de credenciais. Nenhuma senha de banco de dados está escrita (hardcoded) no arquivo `application.properties`. A conexão com o PostgreSQL é feita de forma dinâmica através da injeção de **Variáveis de Ambiente** configuradas no sistema operacional ou na IDE do desenvolvedor.
 
-## 🚀 Como Executar o Projeto Localmente
+## Como Executar o Projeto Localmente
 
 ### Pré-requisitos
 * Ter o **PostgreSQL** instalado e rodando (porta padrão `5432`).
